@@ -1,0 +1,9 @@
+{
+  "name" : "darkadultpoptop",
+  "category" : "darkadultpoptop",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkadultpoptop.png"
+  }
+}
