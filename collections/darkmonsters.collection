@@ -1,0 +1,28 @@
+{
+	"name": "darkmonsters",
+	"title": "Dark Pets",
+	"type": "monster",
+	
+	"collectables": {
+    "darkgleap" : {
+      "order" : 1,
+      "monsterType" : "darkgleap",
+      "icon" : "/monsters/dark/walkers/darkgleap/darkgleap.png:idle.1"
+		},
+	"darkpoptop" : {
+      "order" : 2,
+      "monsterType" : "darkpoptop",
+      "icon" : "/monsters/dark/walkers/darkpoptop/darkpoptop.png:idle.1"
+		},
+	"darkadultpoptop" : {
+      "order" : 3,
+      "monsterType" : "darkadultpoptop",
+      "icon" : "/monsters/dark/walkers/darkadultpoptop/darkadultpoptop.png:idle.1"
+		},
+	"darkanglure" : {
+      "order" : 4,
+      "monsterType" : "darkanglure",
+      "icon" : "/monsters/dark/walkers/darkanglure/darkanglure.png:idle.1"
+		}
+	}
+}
