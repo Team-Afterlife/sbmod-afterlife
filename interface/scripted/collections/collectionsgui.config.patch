@@ -1,0 +1,15 @@
+[
+	{
+		"op": "add",
+		"path": "/gui/collectionTabs/buttons/-",
+		"value": 
+		{
+                  "selected" : false,
+                 "position" : [4, 24],
+        "baseImage" : "/interface/scripted/collections/tab_darkmonster_deselect.png",
+        "baseImageChecked" : "/interface/scripted/collections/tab_darkmonster_select.png",
+        "pressedOffset" : [0, 0],
+        "data" : "darkmonsters"
+              }
+	}
+]
