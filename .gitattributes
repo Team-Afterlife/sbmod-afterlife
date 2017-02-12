@@ -1,0 +1,9 @@
+*.tmp export-ignore
+*.old export-ignore
+tmp export-ignore
+hold export-ignore
+bodytxt export-ignore
+preview.png export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+
