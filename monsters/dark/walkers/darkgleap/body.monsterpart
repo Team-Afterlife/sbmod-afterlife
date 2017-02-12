@@ -1,0 +1,9 @@
+{
+  "name" : "darkgleap",
+  "category" : "darkgleap",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkgleap.png"
+  }
+}

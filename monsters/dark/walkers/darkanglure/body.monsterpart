@@ -1,0 +1,9 @@
+{
+  "name" : "darkanglure",
+  "category" : "darkanglure",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkanglure.png"
+  }
+}
