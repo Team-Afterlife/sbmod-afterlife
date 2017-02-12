@@ -8,7 +8,8 @@
 	"description" : "Standard uniform for a Protector, the lowest rank in the union.",
 	"shortdescription" : "Protector Shirt",
 	"tooltipKind" : "armor",
-	"maleFrames" : {
+	"maleFrames" : 
+  {
 		"body" : "chestm.png",
 		"backSleeve" : "bsleeve.png",
 		"frontSleeve" : "fsleeve.png"
