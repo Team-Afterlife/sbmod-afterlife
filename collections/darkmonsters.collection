@@ -6,23 +6,28 @@
 	"collectables": {
     "darkgleap" : {
       "order" : 1,
-      "monsterType" : "darkgleap",
+      "monsterType" : "afterlife_darkgleap",
       "icon" : "/monsters/dark/walkers/darkgleap/darkgleap.png:idle.1"
 		},
 	"darkpoptop" : {
       "order" : 2,
-      "monsterType" : "darkpoptop",
+      "monsterType" : "afterlife_darkpoptop",
       "icon" : "/monsters/dark/walkers/darkpoptop/darkpoptop.png:idle.1"
 		},
 	"darkadultpoptop" : {
       "order" : 3,
-      "monsterType" : "darkadultpoptop",
+      "monsterType" : "afterlife_darkadultpoptop",
       "icon" : "/monsters/dark/walkers/darkadultpoptop/darkadultpoptop.png:idle.1"
 		},
 	"darkanglure" : {
       "order" : 4,
-      "monsterType" : "darkanglure",
+      "monsterType" : "afterlife_darkanglure",
       "icon" : "/monsters/dark/walkers/darkanglure/darkanglure.png:idle.1"
+		},
+	"darkbobot" : {
+      "order" : 5,
+      "monsterType" : "afterlife_darkbobot",
+      "icon" : "/monsters/dark/walkers/darkbobot/darkbobot.png:idle.1"
 		}
 	}
 }
