@@ -113,7 +113,7 @@
 
     "damageParts" : {
       "body" : {
-        "damage" : 24,
+        "damage" : 26,
 
         "teamType" : "enemy",
         "damageSourceKind" : "slash",
@@ -124,7 +124,7 @@
 
     "touchDamage" : {
       "poly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
-      "damage" : 24,
+      "damage" : 26,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
