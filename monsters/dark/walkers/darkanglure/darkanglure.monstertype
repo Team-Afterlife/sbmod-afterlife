@@ -1,9 +1,9 @@
 {
-  "type" : "darkanglure",
+  "type" : "afterlife_darkanglure",
   "shortdescription" : "Tainted Anglure",
   "description" : "Light no longer shines after the anglure touched the taint.",
 
-  "categories" : [ "darkanglure" ],
+  "categories" : [ "afterlife_darkanglure" ],
   "parts" : [ "body" ],
 
   "animation" : "darkanglure.animation",

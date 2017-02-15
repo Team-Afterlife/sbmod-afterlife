@@ -1,9 +1,9 @@
 {
-  "type" : "darkadultpoptop",
+  "type" : "afterlife_darkadultpoptop",
   "shortdescription" : "Tainted Adult Poptop",
   "description" : "A huge adult poptop wearing a dark taint.",
 
-  "categories" : [ "darkadultpoptop" ],
+  "categories" : [ "afterlife_darkadultpoptop" ],
   "parts" : [ "body" ],
 
   "animation" : "darkadultpoptop.animation",

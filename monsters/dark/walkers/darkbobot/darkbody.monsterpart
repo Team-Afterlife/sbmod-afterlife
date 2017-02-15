@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkbobot",
+  "category" : "afterlife_darkbobot",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkbobot.png"
+  }
+}
