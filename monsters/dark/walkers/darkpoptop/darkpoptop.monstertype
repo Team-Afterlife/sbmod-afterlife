@@ -1,9 +1,9 @@
 {
-  "type" : "darkpoptop",
+  "type" : "afterlife_darkpoptop",
   "shortdescription" : "Tainted Poptop",
   "description" : "A Poptop infected by the Darkness.",
 
-  "categories" : [ "darkpoptop" ],
+  "categories" : [ "afterlife_darkpoptop" ],
   "parts" : [ "body" ],
 
   "animation" : "darkpoptop.animation",

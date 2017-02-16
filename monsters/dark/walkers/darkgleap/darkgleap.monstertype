@@ -1,9 +1,9 @@
 {
-  "type" : "darkgleap",
+  "type" : "afterlife_darkgleap",
   "shortdescription" : "Tainted Gleap",
   "description" : "A gleap tainted by the Darkness",
 
-  "categories" : [ "darkgleap" ],
+  "categories" : [ "afterlife_darkgleap" ],
   "parts" : [ "body" ],
 
   "animation" : "darkgleap.animation",
