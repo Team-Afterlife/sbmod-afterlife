@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkcrabcano",
+  "category" : "afterlife_darkcrabcano",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkcrabcano.png"
+  }
+}
