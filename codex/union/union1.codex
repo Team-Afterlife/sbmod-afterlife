@@ -1,0 +1,17 @@
+{
+	"id": "afterlife_unionhistory1",
+	"title": "History of The Union of Hope: the beginning",
+	"description": "The brief history of the Union of Hope, how it all began.",
+	"icon": "unionhistory.png",
+	"contentPages": [
+		"When the treat of the ruin faded, people finaly believed they could live in peace, and from the ashes of the destroyed worlds a new alliance arose: the Union of Hope, commonly known as the UH or the Union.
+
+One man and one woman of each race were chosen as Patrons, the heads of the Union who worked together to build a world living in peace.
+
+It quickly flourished, and soon all the known races lived in peace."
+	],
+	"itemConfig": {
+		"rarity": "Uncommon",
+		"price": 50
+	}
+}
