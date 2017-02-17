@@ -1,0 +1,23 @@
+{
+	"id": "afterlife_unionhistory2",
+	"title": "History of The Union of Hope: the Army of Light",
+	"description": "Why the Union of Hope has an army.",
+	"icon": "unionhistory.png",
+	"contentPages": [
+	"Why would an organisation who's main goal is peace, need an army?
+
+This question is one that many have asked, and the answer is as simple as it is: to maintain peace, you have to eliminate small threats before they become big.",
+
+"With this in mind, the patrons decided to create the Army of Light.
+It only serves one purpose: peace. Anything that threatens this peace, is to be stopped.
+
+The army can only use deadly force when there are lives in danger, otherwise they have to restrain the enemy without killing them.",
+"Thanks to the research of all the patrons together, they're able to use technology that can restrain any criminal with only the power of light, hence their name.
+
+This technology, the weapons of light, is designed in such way that it does not instantly kill the enemy. It only injures it, but using it for too long will kill the victim."
+	],
+	"itemConfig": {
+		"rarity": "Uncommon",
+		"price": 50
+	}
+}

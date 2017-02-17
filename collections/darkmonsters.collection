@@ -28,6 +28,21 @@
       "order" : 5,
       "monsterType" : "afterlife_darkbobot",
       "icon" : "/monsters/dark/walkers/darkbobot/darkbobot.png:idle.1"
+		},
+	"darkbulbop" : {
+      "order" : 6,
+      "monsterType" : "afterlife_darkbulbop",
+      "icon" : "/monsters/dark/walkers/darkbulbop/darkbulbop.png:idle.1"
+		},
+	"darkcapricoat" : {
+      "order" : 7,
+      "monsterType" : "afterlife_darkcapricoat",
+      "icon" : "/monsters/dark/walkers/darkcapricoat/darkcapricoat.png:idle.1"
+		},
+	"darkcrabcano" : {
+      "order" : 8,
+      "monsterType" : "afterlife_darkcrabcano",
+      "icon" : "/monsters/dark/walkers/darkcrabcano/darkcrabcano.png:idle.1"
 		}
 	}
 }

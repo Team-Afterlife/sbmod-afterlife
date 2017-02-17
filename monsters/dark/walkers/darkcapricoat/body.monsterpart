@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkcapricoat",
+  "category" : "afterlife_darkcapricoat",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkcapricoat.png"
+  }
+}
