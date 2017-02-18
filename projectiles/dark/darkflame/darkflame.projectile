@@ -13,9 +13,9 @@
   "piercing" : false,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "lightColor" : [147, 112, 178],
-  "damageKind" : "fire",
+  "damageKind" : "afterlife_darkfire",
   "statusEffects" : [
-    "burning"
+    "afterlife_darkburning"
   ],
   "hydrophobic" : true
 }
