@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkcrutter",
+  "category" : "afterlife_darkcrutter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkcrutter.png"
+  }
+}
