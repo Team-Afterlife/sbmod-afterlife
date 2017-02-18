@@ -62,7 +62,7 @@
             "windupState" : "firewindup",
             "windupTime" : 0.4,
 
-            "projectileType" : "flame",
+            "projectileType" : "afterlife_darkflame",
             "power" : 10,
             "fireOffset" : [1, 0.35],
             "projectileCount" : 6,
