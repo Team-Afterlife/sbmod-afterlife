@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkfennix",
+  "category" : "afterlife_darkfennix",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkfennix.png"
+  }
+}

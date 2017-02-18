@@ -1,0 +1,16 @@
+{
+  "name" : "afterlife_darkburning",
+  "blockingStat" : "fireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "darkburning.lua"
+  ],
+
+  "animationConfig" : "darkburning.animation",
+
+  "label" : "Tainted Burning",
+  "icon" : "/interface/statuses/darkfire.png"
+}
