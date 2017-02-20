@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkhemogoblin",
+  "category" : "afterlife_darkhemogoblin",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkhemogoblin.png"
+  }
+}
