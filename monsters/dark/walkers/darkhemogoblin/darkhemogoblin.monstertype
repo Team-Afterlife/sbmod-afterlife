@@ -112,7 +112,7 @@
           "name" : "action-spawnmonster",
           "parameters" : {
             "offset" : [-0.5,0],
-            "monsterType" : "hemogoblinbutt",
+            "monsterType" : "afterlife_darkhemogoblinbutt",
             "replacement" : true
           }
         }
