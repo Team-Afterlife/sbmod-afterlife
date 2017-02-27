@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkhemogoblinbutt",
+  "category" : "afterlife_darkhemogoblinbutt",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkhemogoblinbutt.png"
+  }
+}

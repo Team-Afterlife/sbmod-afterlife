@@ -1,14 +1,14 @@
 {
-  "type" : "afterlife_darkadultpoptop",
-  "shortdescription" : "Tainted Adult Poptop",
-  "description" : "A huge adult poptop wearing a dark taint.",
+  "type" : "afterlife_darkhemogoblinbutt",
+  "shortdescription" : "Tainted Hemogoblin Rear",
+  "description" : "The taint makes it look.. Intelligent..",
 
-  "categories" : [ "afterlife_darkadultpoptop" ],
+  "categories" : [ "afterlife_darkhemogoblinbutt" ],
   "parts" : [ "body" ],
 
-  "animation" : "darkadultpoptop.animation",
+  "animation" : "darkhemogoblinbutt.animation",
 
-  "dropPools" : [ { "default" : "adultpoptopTreasure", "bow" : "adultpoptopHunting" } ],
+  "dropPools" : [ { "default" : "empty", "bow" : "hemogoblinHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -25,42 +25,41 @@
       "keepTargetInSight" : true,
       "keepTargetInRange" : 50,
       "targetOutOfSightTime" : 2.5,
-      "hurtTime": 0.10,
-      "hurtWaitForGround": false,
-      "hurtWaitForGroundTime": 0.1,
 
-      "foundTargetActions" : [  ],
+      "spawnActions" : [
+        {
+          "name" : "action-nudge",
+          "parameters" : {
+            "minX" : -10,
+            "maxX" : 10,
+            "minY" : 10,
+            "maxY" : 20
+          }
+        }
+      ],
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
       "fleeActions" : [],
 
       "hostileActions" : [
         {
-          "name" : "action-animate",
-          "cooldown" : 15,
+          "name" : "action-leap",
+          "cooldown" : 2.0,
           "parameters" : {
-            "stateType" : "body",
-            "state" : "roar",
-            "animationTime" : 0.53
-          }
-        },
-        {
-          "name" : "action-charge",
-          "cooldown" : 6.0,
-          "parameters" : {
-            "maximumRange" : 15,
-            "windupState" : "chargewindup",
-            "windupTime" : 0.3,
+            "minimumRange" : 5,
+            "maximumRange" : 20,
+            "windupTime" : 0.25,
+            "windupState" : "idle",
 
-            "chargeTime" : 0.1,
-            "chargeSpeed" : 30,
-            "chargeControlForce" : 1000,
-            "chargeState" : "charge",
-            "wallCrashSound" : "",
-            "wallCrashEmitter" : "",
+            "leapVelocity" : 35,
+            "collisionCheck" : true,
+            "highArc" : false,
+            "leapState" : "jump",
+            "fallState" : "fall",
 
-            "winddownTime" : 0.05,
-            "winddownStopForce" : 1000,
-            "winddownState" : "chargewinddown"
+            "winddownTime" : 0.25,
+            "winddownState" : "idle"
           }
         }
       ],
@@ -72,11 +71,12 @@
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 5,
+            "maxJumps" : 8,
             "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
             "jumpXControlForce" : 50,
-            "minXRange" : 10
+            "minXRange" : 10,
+            "run" : true
           }
         }
       ],
@@ -91,11 +91,12 @@
           "name" : "approach-walk",
           "parameters" : {
             "canJump" : true,
-            "maxJumps" : 5,
+            "maxJumps" : 8,
             "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
             "jumpXControlForce" : 50,
-            "minXRange" : 10
+            "minXRange" : 10,
+            "run" : true
           }
         }
       ],
@@ -103,28 +104,17 @@
       "wanderActions" : [
         {
           "name" : "wander-walk",
-          "cooldown" : 6.0,
+          "cooldown" : 5.0,
           "parameters" : {
-            "wanderTime" : [5, 15]
+            "wanderTime" : [2, 4]
           }
         }
       ]
     },
 
-    "damageParts" : {
-      "body" : {
-        "damage" : 26,
-
-        "teamType" : "enemy",
-        "damageSourceKind" : "slash",
-        "knockback" : 20,
-        "statusEffects" : [ ]
-      }
-    },
-
     "touchDamage" : {
-      "poly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
-      "damage" : 26,
+      "poly" : [ [0.375, 0.875], [0.75, 0.5], [0.75, -0.5], [0.375, -0.875], [-0.375, -0.875], [-0.75, -0.5], [-0.75, 0.5], [-0.375, 0.875] ],
+      "damage" : 24,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -136,16 +126,16 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
+      "collisionPoly" : [ [0.375, 0.875], [0.75, 0.5], [0.75, -0.5], [0.375, -0.875], [-0.375, -0.875], [-0.75, -0.5], [-0.75, 0.5], [-0.375, 0.875] ],
 
-      "mass" : 2.5,
-      "walkSpeed" : 2,
-      "runSpeed" : 3,
+      "mass" : 1.0,
+      "walkSpeed" : 5,
+      "runSpeed" : 8,
 
       "airFriction" : 0,
 
       "airJumpProfile" : {
-        "jumpSpeed" : 35.0,
+        "jumpSpeed" : 45.0,
         "jumpInitialPercentage" : 1.0,
         "jumpHoldTime" : 0.0
       }
@@ -182,7 +172,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 360
+          "baseValue" : 130
         },
         "protection" : {
           "baseValue" : 0.0
@@ -209,13 +199,13 @@
           "baseValue" : 0.0
         },
         "electricResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.5
         },
         "electricStatusImmunity" : {
-          "baseValue" : 0.0
+          "baseValue" : 1.0
         },
         "poisonResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : -0.5
         },
         "poisonStatusImmunity" : {
           "baseValue" : 0.0
@@ -240,6 +230,6 @@
     "capturable" : true,
     "captureHealthFraction" : 0.5,
     "nametagColor" : [147, 112, 178],
-    "captureCollectables" : { "darkmonsters" : "darkadultpoptop" }
+	"captureCollectables": {"darkmonsters": "darkhemogoblinbutt"}
   }
 }

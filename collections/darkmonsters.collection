@@ -43,6 +43,26 @@
       "order" : 8,
       "monsterType" : "afterlife_darkcrabcano",
       "icon" : "/monsters/dark/walkers/darkcrabcano/darkcrabcano.png:idle.1"
+		},
+	"darkcrutter" : {
+      "order" : 9,
+      "monsterType" : "afterlife_darkcrutter",
+      "icon" : "/monsters/dark/walkers/darkcrutter/darkcrutter.png:idle.1"
+		},
+	"darkfennix" : {
+      "order" : 10,
+      "monsterType" : "afterlife_darkfennix",
+      "icon" : "/monsters/dark/walkers/darkfennix/darkfennix.png:idle.1"
+		},
+	"darkhemogoblin" : {
+	  "order" : 11,
+	  "monsterType" : "afterlife_darkhemogoblin",
+	  "icon" : "/monsters/dark/walkers/darkhemogoblin/darkhemogoblin.png:idle.1"
+	    },
+	"darkhemogoblinbutt" : {
+	  "order" : 12,
+	  "monsterType" : "afterlife_darkhemogoblinbutt",
+	  "icon" : "/monsters/dark/walkers/darkhemogoblinbutt/darkhemogoblinbutt.png:idle.1"
 		}
 	}
 }
