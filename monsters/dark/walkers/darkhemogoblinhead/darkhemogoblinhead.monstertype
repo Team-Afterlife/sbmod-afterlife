@@ -1,14 +1,14 @@
 {
-  "type" : "afterlife_darkhemogoblin",
-  "shortdescription" : "Tainted Hemogoblin",
-  "description" : "The tainted wounds make it even more gross.",
+  "type" : "afterlife_darkhemogoblinhead",
+  "shortdescription" : "Tainted Hemogoblin Head",
+  "description" : "The taint makes up for the missing half.",
 
-  "categories" : [ "afterlife_darkhemogoblin" ],
+  "categories" : [ "afterlife_darkhemogoblinhead" ],
   "parts" : [ "body" ],
 
-  "animation" : "darkhemogoblin.animation",
+  "animation" : "darkhemogoblinhead.animation",
 
-  "dropPools" : [ { "default" : "empty" } ],
+  "dropPools" : [ { "default" : "hemogoblinTreasure", "bow" : "empty" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -16,7 +16,6 @@
     ],
 
     "behavior" : "monster",
-    "deathBehavior" : "monster-death",
 
     "behaviorConfig" : {
       "damageOnTouch" : true,
@@ -25,6 +24,18 @@
       "keepTargetInSight" : true,
       "keepTargetInRange" : 50,
       "targetOutOfSightTime" : 2.5,
+
+      "spawnActions" : [
+        {
+          "name" : "action-nudge",
+          "parameters" : {
+            "minX" : -10,
+            "maxX" : 10,
+            "minY" : 10,
+            "maxY" : 20
+          }
+        }
+      ],
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
@@ -35,10 +46,10 @@
           "name" : "action-leap",
           "cooldown" : 2.0,
           "parameters" : {
-            "minimumRange" : 5,
+            "minimumRange" : 2,
             "maximumRange" : 20,
             "windupTime" : 0.25,
-            "windupState" : "windup",
+            "windupState" : "idle",
 
             "leapVelocity" : 35,
             "collisionCheck" : true,
@@ -97,31 +108,12 @@
             "wanderTime" : [2, 3]
           }
         }
-      ],
-
-      "deathActions" : [
-        {
-          "name" : "action-spawnmonster",
-          "parameters" : {
-            "offset" : [0.5,0],
-            "monsterType" : "afterlife_darkhemogoblinhead",
-            "replacement" : true
-          }
-        },
-        {
-          "name" : "action-spawnmonster",
-          "parameters" : {
-            "offset" : [-0.5,0],
-            "monsterType" : "afterlife_darkhemogoblinbutt",
-            "replacement" : true
-          }
-        }
       ]
     },
 
     "touchDamage" : {
-      "poly" : [ [0.625, 1.125], [1, 0.75], [1, -0.75], [0.625, -1.125], [-0.625, -1.125], [-1, -0.75], [-1, 0.75], [-0.625, 1.125] ],
-      "damage" : 12,
+      "poly" : [ [0.25, 1.3125], [0.625, 0.9375], [0.625, -0.9375], [0.25, -1.3125], [-0.25, -1.3125], [-0.625, -0.9375], [-0.625, 0.9375], [-0.25, 1.3125] ],
+      "damage" : 24,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -133,11 +125,11 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [0.625, 1.125], [1, 0.75], [1, -0.75], [0.625, -1.125], [-0.625, -1.125], [-1, -0.75], [-1, 0.75], [-0.625, 1.125] ],
+      "collisionPoly" : [ [0.25, 1.3125], [0.625, 0.9375], [0.625, -0.9375], [0.25, -1.3125], [-0.25, -1.3125], [-0.625, -0.9375], [-0.625, 0.9375], [-0.25, 1.3125] ],
 
       "mass" : 1.0,
       "walkSpeed" : 5,
-      "runSpeed" : 7,
+      "runSpeed" : 10,
 
       "airFriction" : 0,
 
@@ -152,6 +144,7 @@
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
+      "damage" : "stunned"
     },
     "deathParticles" : "deathPoof",
     "knockoutEffect" : "",
@@ -178,7 +171,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 60
+          "baseValue" : 130
         },
         "protection" : {
           "baseValue" : 0.0
@@ -236,6 +229,6 @@
     "capturable" : true,
     "captureHealthFraction" : 0.5,
     "nametagColor" : [147, 112, 178],
-    "captureCollectables" : { "darkmonsters" : "darkhemogoblin" }
+	"captureCollectables":{"darkmonsters": "darkhemogoblinhead"}
   }
 }
