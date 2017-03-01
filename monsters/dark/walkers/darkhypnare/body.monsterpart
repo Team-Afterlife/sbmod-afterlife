@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkhypnare",
+  "category" : "afterlife_darkhypnare",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkhypnare.png"
+  }
+}
