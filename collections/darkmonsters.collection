@@ -68,6 +68,11 @@
 	  "order" : 13,
 	  "monsterType" : "afterlife_darkhemogoblinhead",
 	  "icon" : "/monsters/dark/walkers/darkhemogoblinhead/darkhemogoblinhead.png:idle.1"
+		},
+	"darkhypnare" : {
+	  "order" : 14,
+	  "monsterType" : "afterlife_darkhypnare",
+	  "icon" : "/monsters/dark/walkers/darkhypnare/darkhypnare.png:idle.1"
 		} 
 	}
 }
