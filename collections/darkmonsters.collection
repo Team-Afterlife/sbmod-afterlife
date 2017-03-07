@@ -73,6 +73,16 @@
 	  "order" : 14,
 	  "monsterType" : "afterlife_darkhypnare",
 	  "icon" : "/monsters/dark/walkers/darkhypnare/darkhypnare.png:idle.1"
-		} 
+		},
+	"darkkingnutmidgeling" : {
+		"order": 15,
+		"monsterType": "afterlife_darkkingnutmidgeling",
+		"icon": "/monsters/dark/walkers/darkkingnutmidgeling/darkkingnutmidgeling.png:idle.1"
+		},
+	"darkoogler" : {
+		"order": 16,
+		"monsterType": "afterlife_darkoogler",
+		"icon": "/monsters/dark/walkers/darkoogler/darkoogler.png:idle.1"
+		}
 	}
 }
