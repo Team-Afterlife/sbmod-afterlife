@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkkingnutmidgeling",
+  "category" : "afterlife_darkkingnutmidgeling",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkkingnutmidgeling.png"
+  }
+}
