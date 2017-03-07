@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkoogler",
+  "category" : "afterlife_darkoogler",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkoogler.png"
+  }
+}
