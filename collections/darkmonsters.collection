@@ -83,6 +83,11 @@
 		"order": 16,
 		"monsterType": "afterlife_darkoogler",
 		"icon": "/monsters/dark/walkers/darkoogler/darkoogler.png:idle.1"
+		},
+	"darkorbide" : {
+		"order": 17,
+		"monsterType": "afterlife_darkorbide",
+		"icon": "/monsters/dark/walkers/darkorbide/darkorbide.png:idle.1"
 		}
 	}
 }
