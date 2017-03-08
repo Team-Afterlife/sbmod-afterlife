@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkorbide",
+  "category" : "afterlife_darkorbide",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkorbide.png"
+  }
+}
