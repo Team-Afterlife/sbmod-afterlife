@@ -1,0 +1,9 @@
+{
+  "name" : "afterlife_darkpeblit",
+  "category" : "afterlife_darkpeblit",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkpeblit.png"
+  }
+}
