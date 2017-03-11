@@ -1,0 +1,21 @@
+{
+	"itemName": "afterlife_patronchest",
+	"price": 125,
+	"inventoryIcon": "icons.png:chest",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "The uniform of a Patron, the leaders of the Union.",
+	"shortdescription" : "Patron Shirt",
+	"tooltipKind" : "armor",
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
