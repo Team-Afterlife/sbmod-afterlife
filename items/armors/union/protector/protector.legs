@@ -5,7 +5,7 @@
 	"maxStack": 1,
 	"rarity": "Common",
 	"category": "legwear",
-	"description": "Standard uniform for a Protector, the lowest rank in the union.",
+	"description": "Standard uniform for a Protector, the second lowest rank in the union.",
 	"shortdescription": "Protector Trousers",
 	"tooltipKind": "armor",
 	"maleFrames": "pants.png",
