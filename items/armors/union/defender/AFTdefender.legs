@@ -5,7 +5,7 @@
 	"maxStack": 1,
 	"rarity": "Common",
 	"category": "legwear",
-	"description": "Standard issue uniform for a Protector, the lowest rank in the union.",
+	"description": "Standard issue uniform for a Defender, the lowest rank in the union.",
 	"shortdescription": "Defender Trousers",
 	"tooltipKind": "armor",
 	"maleFrames": "pants.png",
