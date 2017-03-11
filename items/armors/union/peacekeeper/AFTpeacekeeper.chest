@@ -1,0 +1,21 @@
+{
+	"itemName": "afterlife_peacekeeperchest",
+	"price": 125,
+	"inventoryIcon": "icons.png:chest",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "A uniform of a Peacekeeper, the middle rank of the Union.",
+	"shortdescription" : "Peacekeeper Shirt",
+	"tooltipKind" : "armor",
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
