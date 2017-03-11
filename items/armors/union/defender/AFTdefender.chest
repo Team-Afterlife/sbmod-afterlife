@@ -1,0 +1,21 @@
+{
+	"itemName": "afterlife_defenderchest",
+	"price": 125,
+	"inventoryIcon": "icons.png:chest",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "Standard issue uniform for a Defender, the lowest rank in the union.",
+	"shortdescription" : "Defender Shirt",
+	"tooltipKind" : "armor",
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
