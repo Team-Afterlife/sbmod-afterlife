@@ -1,12 +1,12 @@
 {
-	"itemName": "afterlife_protectorchest",
+	"itemName": "afterlife_uhrecruitchest",
 	"price": 125,
 	"inventoryIcon": "icons.png:chest",
 	"maxStack" : 1,
 	"rarity" : "Common",
 	"category" : "chestwear",
-	"description" : "Standard uniform for a Protector, the second lowest rank in the union.",
-	"shortdescription" : "Protector Shirt",
+	"description" : "The Union has different uniforms for their recruits than for their members, to avoid confusion.",
+	"shortdescription" : "Recruit Shirt",
 	"tooltipKind" : "armor",
 	"maleFrames" : {
 		"body" : "chestm.png",
