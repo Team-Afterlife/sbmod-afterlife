@@ -1,0 +1,21 @@
+{
+	"itemName": "afterlife_guardianchest",
+	"price": 125,
+	"inventoryIcon": "icons.png:chest",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "A Guardian's uniform, the highest reachable rank in the union.",
+	"shortdescription" : "Guardian Shirt",
+	"tooltipKind" : "armor",
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
