@@ -1,6 +1,6 @@
 {
 	"itemName": "afterlife_defenderchest",
-	"price": 125,
+	"price": 150,
 	"inventoryIcon": "icons.png:chest",
 	"maxStack" : 1,
 	"rarity" : "Common",
