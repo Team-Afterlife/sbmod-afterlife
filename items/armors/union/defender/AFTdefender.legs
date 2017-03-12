@@ -1,6 +1,6 @@
 {
 	"itemName": "afterlife_defenderpants",
-	"price": 75,
+	"price": 80,
 	"inventoryIcon": "icons.png:pants",
 	"maxStack": 1,
 	"rarity": "Common",
