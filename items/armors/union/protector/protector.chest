@@ -3,9 +3,9 @@
 	"price": 125,
 	"inventoryIcon": "icons.png:chest",
 	"maxStack" : 1,
-	"rarity" : "Common",
+	"rarity" : "Uncommon",
 	"category" : "chestwear",
-	"description" : "Standard uniform for a Protector, the second lowest rank in the union.",
+	"description" : "Standard uniform for a Protector, now with a woolen interior!",
 	"shortdescription" : "Protector Shirt",
 	"tooltipKind" : "armor",
 	"maleFrames" : {
