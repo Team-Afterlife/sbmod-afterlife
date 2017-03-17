@@ -1,0 +1,52 @@
+{
+	"objectName": "afterlife_unionflag",
+	"colonyTags": ["union"],
+	"printable": false,
+	"rarity": "Common",
+	"objectType": "teleporter",
+	"category": "teleportMarker",
+	"price" : 70,
+	"radioMessagesOnPickup" : [ "pickupflag" ],
+  
+	"description" : "Description needs to be set.",
+	"shortdescription" : "Union Flag",
+	"race" : "apex",
+
+	"apexDescription" : "Description needs to be set.",
+	"avianDescription" : "Description needs to be set.",
+	"floranDescription" : "Description needs to be set.",
+	"glitchDescription" : "Description needs to be set.",
+	"humanDescription" : "Description needs to be set.",
+	"hylotlDescription" : "Description needs to be set.",
+	"novakidDescription" : "Description needs to be set.",
+
+	"interactAction" : "OpenTeleportDialog",
+	"interactData" : "/interface/warping/destinationonly.config",
+
+	"inventoryIcon" : "AFTunionflagicon.png",
+	"orientations" : [
+		{
+		"image" : "AFTunionflag.png:<color>.<frame>",
+		"flipImages" : true,
+		"direction" : "left",
+		"imagePosition" : [-17, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		},
+		{
+		"image" : "AFTunionflag.png:<color>.<frame>",
+		"direction" : "right",
+		"imagePosition" : [1, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		}
+	],
+
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
