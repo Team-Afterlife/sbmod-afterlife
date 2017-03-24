@@ -1,0 +1,52 @@
+{
+	"objectName": "afterlife_unionflag",
+	"colonyTags": ["union"],
+	"printable": false,
+	"rarity": "Common",
+	"objectType": "teleporter",
+	"category": "teleportMarker",
+	"price" : 70,
+	"radioMessagesOnPickup" : [ "pickupflag" ],
+  
+	"description" : "A flag showing the ^#D4AF37;Union^white; symbol.",
+	"shortdescription" : "Union Flag",
+	"race" : "apex",
+
+	"apexDescription" : "A flag of the ^#D4AF37;Union^white;, meant to show that peace rules here.",
+	"avianDescription" : "^#D4AF37;Union^white; flags show that there's a peaceful area.",
+	"floranDescription" : "It'ss a ^#D4AF37;Union^white; flag, Floran musst not kill here.",
+	"glitchDescription" : "Interested. This ^#D4AF37;Union^white; flag is a symbol of peace, I wonder if people actually follow the rules about these flags.",
+	"humanDescription" : "This ^#D4AF37;Union^white; flag indicates that there shouldn't be fought here.",
+	"hylotlDescription" : "This ^#D4AF37;Union^white; flag is a symbol of both peace and hope.",
+	"novakidDescription" : "If it wouldn't be of that ^#D4AF37;Union^white; flag, my guns would be blazin' already.",
+
+	"interactAction" : "OpenTeleportDialog",
+	"interactData" : "/interface/warping/destinationonly.config",
+
+	"inventoryIcon" : "AFTunionflagicon.png",
+	"orientations" : [
+		{
+		"image" : "AFTunionflag.png:<color>.<frame>",
+		"flipImages" : true,
+		"direction" : "left",
+		"imagePosition" : [-17, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		},
+		{
+		"image" : "AFTunionflag.png:<color>.<frame>",
+		"direction" : "right",
+		"imagePosition" : [1, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		}
+	],
+
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
