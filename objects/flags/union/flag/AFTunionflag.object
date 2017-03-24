@@ -7,10 +7,10 @@
 	"category": "teleportMarker",
 	"price" : 70,
 	"radioMessagesOnPickup" : [ "pickupflag" ],
-  
+  	"race": "generic",
+	
 	"description" : "A flag showing the ^#D4AF37;Union^white; symbol.",
 	"shortdescription" : "Union Flag",
-	"race" : "apex",
 
 	"apexDescription" : "A flag of the ^#D4AF37;Union^white;, meant to show that peace rules here.",
 	"avianDescription" : "^#D4AF37;Union^white; flags show that there's a peaceful area.",
