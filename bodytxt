@@ -2,7 +2,9 @@
 #ingame
 #######
 
-^#5aa9d6;Title^reset;
+^#5aa9d6;titleflag^reset;
+
+bodyflag
 
 For more, click the MEGATHREAD link from the steam page.
 
@@ -10,16 +12,26 @@ For more, click the MEGATHREAD link from the steam page.
 #steam
 ######
 
-[h1]Title[/h1]
+[h1]titleflag[/h1]
+
+bodyflag
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Alternate downloads can be found on my [url=https://github.com/IsaacHart/sbmod-/releases/0.1/]github.[/url]
+[url=https://github.com/Team-Afterlife/sbmod-afterlife/blob/master/CHANGELOG]CHANGELOG[/url]
+Alternate downloads can be found on the Team Afterlife [url=https://github.com/Team-Afterlife/sbmod-afterlife/releases]github.[/url]
+current version 0.1
 
 ######
 #forum
 ######
 
-[URL='http://community.playstarbound.com/threads/124193/']MEGATHREAD[/URL]
+titleflag
+
+bodyflag
+
+[URL='http://community.playstarbound.com/threads/124193/']MEGATHREAD[/URL
+[URL='https://github.com/Team-Afterlife/sbmod-afterlife/blob/master/CHANGELOG']CHANGELOG[/URL]
+current version 0.1
 
 [[pictures]]
 
@@ -29,4 +41,4 @@ PERMISSIONS: granted per license, gplv3, included in download.
 #megathread
 ###########
 
-Afterlife (0.1) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources//']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-/releases/download/0.1/sbmod--0.1.pak']direct[/URL]
+Afterlife (0.1) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources//']forum[/URL] | [URL='https://github.com/Team-Afterlife/sbmod-afterlife/releases']github[/URL] | [URL='https://github.com/Team-Afterlife/sbmod-afterlife/releases/download/0.1/sbmod-afterlife-0.1.pak']pak[/URL] | [URL='https://github.com/Team-Afterlife/sbmod-afterlifetest/archive/0.1.zip']zip[/URL] | [URL='https://github.com/Team-Afterlife/sbmod-afterlife/archive/0.1.tar.gz']tar[/URL] | [URL='https://github.com/Team-Afterlife/sbmod-afterlife/blob/master/CHANGELOG']changelog[/URL]
