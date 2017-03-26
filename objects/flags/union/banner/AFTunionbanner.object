@@ -1,0 +1,47 @@
+{
+	"objectName": "afterlife_unionbanner",
+	"colonyTags": ["union"],
+	"printable": false,
+	"rarity": "Common",
+	"category": "decorative",
+	"price" : 70,
+  
+	"description" : "A banner showing the ^#D4AF37;Union^white; symbol.",
+	"shortdescription" : "Union Banner",
+	"race" : "generic",
+
+	"apexDescription" : "A banner of the ^#D4AF37;Union^white;, meant to show that peace rules here.",
+	"avianDescription" : "^#D4AF37;Union^white; banners indicate peaceful areas.",
+	"floranDescription" : "It'ss a ^#D4AF37;Union^white; banner, Floran musst not kill here.",
+	"glitchDescription" : "Interested. This ^#D4AF37;Union^white; banner is a symbol of peace, I wonder if these actually help.",
+	"humanDescription" : "This ^#D4AF37;Union^white; banner indicates that there shouldn't be fought here.",
+	"hylotlDescription" : "This ^#D4AF37;Union^white; banner is a symbol of both peace and hope.",
+	"novakidDescription" : "Nothin' says f*ck you to bandits more than this ^#D4AF37;Union^white; banner.",
+
+	"inventoryIcon" : "AFTunionbannericon.png",
+	"orientations" : [
+		{
+		"image" : "AFTunionbanner.png:<color>.<frame>",
+		"flipImages" : true,
+		"direction" : "left",
+		"imagePosition" : [-17, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		},
+		{
+		"image" : "AFTunionbanner.png:<color>.<frame>",
+		"direction" : "right",
+		"imagePosition" : [1, 0],
+		"frames" : 6,
+		"animationCycle" : 1.0,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+		}
+	],
+
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
