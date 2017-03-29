@@ -1,0 +1,43 @@
+{
+  "objectName" : "afterlife_unionbookcase1",
+  "colonyTags" : ["union","archive","knowledge","storage"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 145,
+  "description" : "An bookcase of a Union archive.",
+  "shortdescription" : "Union Archive Bookcase",
+  "race" : "apex",
+  "health" : 1.5,
+
+  "apexDescription" : "A Union archive bookcase, should be filled with history books and reports.",
+  "avianDescription" : "Few Avians of my nest are capable of reading.",
+  "floranDescription" : "Floran tell ssstories at the campfire.",
+  "glitchDescription" : "Curious. Perhaps there is something to learn from the past.",
+  "humanDescription" : "A book case. My translator has its work cut out.",
+  "hylotlDescription" : "There are many grand libraries at the bottom of Hylotl oceans.",
+  "novakidDescription" : "It seems to contain mainly hirstoy related literature.",
+
+  "inventoryIcon" : "AFTunionbookcase1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "AFTunionbookcase1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
