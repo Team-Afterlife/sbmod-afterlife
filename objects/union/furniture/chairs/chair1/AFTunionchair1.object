@@ -1,0 +1,40 @@
+{
+	"objectName": "afterlife_unionchair1",
+	"colonyTags": ["union"],
+	"rarity": "Common",
+	"description": "A standard Union chair.",
+	"shortdescription": "Union Chair",
+	"race": "generic",
+	"category": "furniture",
+	"price": 95,
+	
+	"apexDescription" : "",
+	"avianDescription" : "",
+	"floranDescription" : "",
+	"glitchDescription" : "",
+	"humanDescription" : "",
+	"hylotlDescription" : "",
+	"novakidDescription" : "",
+  
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"lightColor" : [38, 114, 128],
+	
+	"inventoryIcon": "AFTunionchair1icon.png",
+	"orientations" : [
+    {
+      "dualImage" : "AFTunionchair1.png:<color>",
+	  "imageLayers" : [ { "image" : "AFTunionchair1.png:<color>", "fullbright" : true }, { "image" : "AFTunionchair1lit.png:<color>" } ],
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "sitPosition": [2,23]
+}
