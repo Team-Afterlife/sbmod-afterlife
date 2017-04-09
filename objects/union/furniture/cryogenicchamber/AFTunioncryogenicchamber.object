@@ -1,0 +1,64 @@
+{
+	"objectName": "afterlife_cchamber",
+	"colonyTags": ["union", "prison"],
+	"rarity": "Common",
+	"description": "A cryogenic chamber, used to lock away criminals.",
+	"shortdescription": "Union Cryogenic Chamber",
+	"race": "generic",
+	"category": "furniture",
+	"price": 0,
+	"lightColor" : [38, 114, 128],
+	
+	"apexDescription" : "",
+	"avianDescription" : "",
+	"floranDescription" : "",
+	"glitchDescription" : "",
+	"humanDescription" : "",
+	"hylotlDescription" : "",
+	"novakidDescription" : "",
+	
+	"objectType" : "loungeable",
+	"sitFlipDirection" : false,
+	
+	"sitOrientation" : "lay",
+	"sitAngle" : 0,
+	"sitEmote" : "sleep",
+	"sitStatusEffects" : [
+		"bed4"
+	],
+	"sitCoverImage": "/objects/union/furniture/cryogenicchamber/AFTunioncryogenicchambercover.png", 
+	"sitEffectEmitters" : [ "sleepbubbles" ],
+	
+	"inventoryIcon": "AFTunioncryogenicchambericon.png",
+	"orientations" : [
+		{	
+	  "imageLayers" : [ { "image" : "AFTunioncryogenicchamber.png:<color>.<frame>", "fullbright" : true }, { "image" : "AFTunioncryogenicchamberlit.png:<color>.<frame>"} ],
+	  "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 2,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [13, 28],
+	  
+	  "lightPosition" : [-2, 0],
+
+      "spaceScan" : 0.1,
+	  "direction" : "left",
+      "anchors" : [ "background" ]
+
+		},
+		{
+      "imageLayers" : [ { "image" : "AFTunioncryogenicchamber.png:<color>.<frame>", "fullbright" : true }, { "image" : "AFTunioncryogenicchamberlit.png:<color>.<frame>"} ],
+      "imagePosition" : [-24, 0],
+      "frames" : 2,
+      "animationCycle" : 1.0,
+      
+	  "lightPosition" : [-1, 0],
+      "sitPosition" : [-10, 28],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+		}
+	]
+	
+}
